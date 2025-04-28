@@ -14,22 +14,22 @@ export const Projects = () => {
         {
             title: "Cover Letter",
             imgUrl: projImg1,
-            link: "/Portfolio/project1"  
+            link: "/#/project1"  
           },
         {
             title: "Interview",
             imgUrl: projImg2,
-            link: "/Portfolio/project2"  
+            link: "/#/project2"  
         },
         {
             title: "Technical Report",
             imgUrl: projImg3,
-            link: "/Portfolio/project3"  
+            link: "/#/project3"  
         },
         {
             title: "ENG 1102 Design Project",
             imgUrl: projImg4,
-            link: "/Portfolio/project4"  
+            link: "/#/project4"  
         },
     ]
     return (

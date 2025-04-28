@@ -1,16 +1,14 @@
 import { Col } from "react-bootstrap";
 
-export const HobbyCard = ({ title, description, imgUrl, link }) => {
+export const HobbyCard = ({ title, imgUrl }) => {
     return (
-        <Col sm={12} md={6} lg={4} className="mb-4 d-flex justify-content-center"> {/* Centering the card */}
-            <a href={link} target="_blank" rel="noopener noreferrer" className="hobby-link">
+        <Col sm={6} md={3}>
                 <div className="proj-imgbx">
                     <img src={imgUrl} alt={title} />
                     <div className="proj-txtx">
-                        <h4>{title}</h4>
+                    <h4 className="project-card-title">{title}</h4>
                     </div>
                 </div>
-            </a>
         </Col>
     );
 };

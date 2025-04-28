@@ -1,39 +1,36 @@
-import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
+import { Col, Container, Tab, Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCards";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/headspace.png";
 import projImg2 from "../assets/img/houseprice.jpg";
 import projImg3 from "../assets/img/hobowiz.jpg";
 import projImg4 from "../assets/img/portfolio.jpg";
-
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
+import { Link } from 'react-router-dom'; 
 
 export const Hobbies = () => {
 
     const hobbies = [
         {
-            title: "Headspace",
+            title: "HeadSpace",
             imgUrl: projImg1,
-            link: "https://github.com/MahirR199/Apple-Music-Application"
+            link: "https://artin59.github.io/Portfolio/#/hobby1" 
         },
         {
-            title: "Home Price Predictor",
-            description: "Python",
+            title: "Interview",
             imgUrl: projImg2,
-            link: "https://github.com/MahirR199/PredictHomePrice"
+            link: "https://artin59.github.io/Portfolio/#/project2"  
         },
         {
-            title: "Hogwarts Hobo",
-            description: "Python",
+            title: "Technical Report",
             imgUrl: projImg3,
-            link: "https://github.com/MahirR199/HogwartsHobo"
+            link: "https://artin59.github.io/Portfolio/#/project3"  
         },
         {
-            title: "Portfolio",
-            description: "Javascript",
+            title: "ENG 1102 Design Project",
             imgUrl: projImg4,
-            link: "https://github.com/MahirR199/portfolio"
+            link: "https://artin59.github.io/Portfolio/#/project4"  
         },
     ]
     return (
@@ -44,41 +41,32 @@ export const Hobbies = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                            <h2>Hobbies</h2>
+                            <h2>Projects</h2>
                             <p></p>
                             </div>}
                         </TrackVisibility>
                         <Tab.Container id= "projects-tab" defaultActiveKey="first">
-                            {/* <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                                <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab One</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link eventKey="third">
-                                        Tab Three
-                                    </Nav.Link>
-                                </Nav.Item>
-                            </Nav> */}
                             <Tab.Content>
                                 <Tab.Pane eventKey="first">
                                     <Row>
                                         {
                                             hobbies.map((hobbies, index) => {
                                                 return (
-                                                    <ProjectCard
-                                                    key={index}
-                                                    {...hobbies}
-                                                    />
+                                                    <Col sm={6} md={3} key={index}>
+                                                        <Link to={hobbies.link} className="project-link">
+                                                            <div className="proj-imgbx">
+                                                                <img src={hobbies.imgUrl} alt={hobbies.title} />
+                                                                <div className="proj-txtx">
+                                                                    <h4 className="project-card-title">{hobbies.title}</h4>
+                                                                </div>
+                                                            </div>
+                                                        </Link>
+                                                    </Col>
                                                 )
                                             })
                                         }
                                     </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="second">Artin</Tab.Pane>
-                                <Tab.Pane eventKey="third">Kiany</Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>

@@ -12,7 +12,6 @@ import Project2 from "./components/Project2";
 import Project3 from "./components/Project3";
 import Project4 from "./components/Project4";
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {

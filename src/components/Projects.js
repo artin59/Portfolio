@@ -15,22 +15,22 @@ export const Projects = () => {
         {
             title: "Cover Letter",
             imgUrl: projImg1,
-            link: "https://artin59.github.io/Portfolio/#/project1" 
+            link: "/project1" 
         },
         {
             title: "Interview",
             imgUrl: projImg2,
-            link: "https://artin59.github.io/Portfolio/#/project2"  
+            link: "/project2"  
         },
         {
             title: "Technical Report",
             imgUrl: projImg3,
-            link: "https://artin59.github.io/Portfolio/#/project3"  
+            link: "/project3"  
         },
         {
             title: "ENG 1102 Design Project",
             imgUrl: projImg4,
-            link: "https://artin59.github.io/Portfolio/#/project4"  
+            link: "/project4"  
         },
     ]
     return (

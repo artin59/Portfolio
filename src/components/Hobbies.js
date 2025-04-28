@@ -15,7 +15,7 @@ export const Hobbies = () => {
         {
             title: "HeadSpace",
             imgUrl: projImg1,
-            link: "https://artin59.github.io/Portfolio/#/hobby1" 
+            link: "/hobby1" 
         },
         {
             title: "Interview",

@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.11a6e084.css",
-    "main.js": "/Portfolio/static/js/main.87ce7a62.js",
+    "main.css": "/Portfolio/static/css/main.5b6d6526.css",
+    "main.js": "/Portfolio/static/js/main.4ff6eadf.js",
     "static/media/poster.pdf": "/Portfolio/static/media/poster.a5f77b649056fc1f2e48.pdf",
     "static/media/eng 1102 poster.png": "/Portfolio/static/media/eng 1102 poster.3ca65e41ca0765a332fa.png",
+    "static/media/3.jpg": "/Portfolio/static/media/3.2d8d79d14d28a6b18e9c.jpg",
+    "static/media/4.jpg": "/Portfolio/static/media/4.a51eb95c56391bdfa531.jpg",
+    "static/media/2.jpg": "/Portfolio/static/media/2.8a4bae7261422ee74fc6.jpg",
     "static/media/pres.pptx": "/Portfolio/static/media/pres.efb728cc5cd6c0069d6a.pptx",
+    "static/media/1.jpg": "/Portfolio/static/media/1.5b28b7def2b1b1772acb.jpg",
     "static/media/color-sharp.png": "/Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/headspace.png": "/Portfolio/static/media/headspace.a466e9ad52076e30831e.png",
     "static/media/footer-bg - Copy.png": "/Portfolio/static/media/footer-bg - Copy.1938bb6444c5d4891729.png",
+    "static/media/utra.png": "/Portfolio/static/media/utra.675a7c43cc23250368da.png",
     "static/media/technical report.pdf": "/Portfolio/static/media/technical report.6acd940a1d0357ec1fca.pdf",
     "static/media/Matlab_Logo.png": "/Portfolio/static/media/Matlab_Logo.2302bf9d4d7ecd2c534b.png",
     "static/media/eng1102 pres.png": "/Portfolio/static/media/eng1102 pres.9070f50163f05203b05f.png",
@@ -36,11 +41,11 @@
     "static/media/python.svg": "/Portfolio/static/media/python.a3234e7b1423b66cd5dbe9d2a3a17c6d.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/HTML.svg": "/Portfolio/static/media/HTML.0c8899975fbb5345002df9b408db0cc0.svg",
-    "main.11a6e084.css.map": "/Portfolio/static/css/main.11a6e084.css.map",
-    "main.87ce7a62.js.map": "/Portfolio/static/js/main.87ce7a62.js.map"
+    "main.5b6d6526.css.map": "/Portfolio/static/css/main.5b6d6526.css.map",
+    "main.4ff6eadf.js.map": "/Portfolio/static/js/main.4ff6eadf.js.map"
   },
   "entrypoints": [
-    "static/css/main.11a6e084.css",
-    "static/js/main.87ce7a62.js"
+    "static/css/main.5b6d6526.css",
+    "static/js/main.4ff6eadf.js"
   ]
 }

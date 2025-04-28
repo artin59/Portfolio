@@ -7,7 +7,7 @@ import projImg3 from "../assets/img/hobowiz.jpg";
 import projImg4 from "../assets/img/portfolio.jpg";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import { Link } from "react-router-dom"; // ✅ ADD THIS
+import { Link } from 'react-router-dom'; // <-- ADD THIS
 
 export const Projects = () => {
 
@@ -15,7 +15,7 @@ export const Projects = () => {
         {
             title: "Cover Letter",
             imgUrl: projImg1,
-            link: "/project1"  // ✅ JUST /project1 (no /#/ manually)
+            link: "/project1"  // <-- NORMAL path (no /#/)
         },
         {
             title: "Interview",
@@ -41,10 +41,9 @@ export const Projects = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__bounce" : ""}>
-                                    <h2>Showcase</h2>
-                                    <p></p>
-                                </div>
-                            }
+                            <h2>Showcase</h2>
+                            <p></p>
+                            </div>}
                         </TrackVisibility>
                         <Tab.Container id="projects-tab" defaultActiveKey="first">
                             <Tab.Content>
@@ -53,9 +52,14 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <Col key={index} sm={6} md={4}>
-                                                        <Link to={project.link} style={{ textDecoration: 'none', color: 'inherit' }}>
-                                                            <ProjectCard {...project} />
+                                                    <Col sm={6} md={3} key={index}>
+                                                        <Link to={project.link} className="project-link">
+                                                            <div className="proj-imgbx">
+                                                                <img src={project.imgUrl} alt={project.title} />
+                                                                <div className="proj-txtx">
+                                                                    <h4 className="project-card-title">{project.title}</h4>
+                                                                </div>
+                                                            </div>
                                                         </Link>
                                                     </Col>
                                                 )
@@ -68,7 +72,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2} alt="background" />
+            <img className="background-image-right" src={colorSharp2} alt="" />
         </section>
     )
 }

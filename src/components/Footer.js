@@ -11,9 +11,6 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/artin-kiany/" target="_blank" rel="noopener noreferrer">
                     <LinkedInIcon />
                 </a>
-                <a href={`mailto:${process.env.REACT_APP_EMAIL}`}>
-                    <EmailIcon />
-                </a>
                 <a href="https://github.com/artin59" target="_blank" rel="noopener noreferrer">
                     <GitHubIcon />
                 </a>

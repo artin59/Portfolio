@@ -48,9 +48,8 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/artin-kiany/"><LinkedInIcon sx={{ color: 'white' }} /></a>
-              <a href="https://github.com/artin59"><GitHubIcon sx={{ color: 'white' }} /></a>
-              <a href={`mailto:${process.env.REACT_APP_EMAIL}`}><EmailIcon sx={{ color: 'white' }} /></a>
+              <a href="https://www.linkedin.com/in/artin-kiany/" target="_blank" rel="noopener noreferrer"><LinkedInIcon sx={{ color: 'white' }} /></a>
+              <a href="https://github.com/artin59" target="_blank" rel="noopener noreferrer"><GitHubIcon sx={{ color: 'white' }} /></a>
             </div>
           </span>
         </Navbar.Collapse>

@@ -7,7 +7,7 @@ import projImg3 from "../assets/img/hobowiz.jpg";
 import projImg4 from "../assets/img/portfolio.jpg";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
-import { Link } from 'react-router-dom'; // <-- ADD THIS
+import { Link } from 'react-router-dom'; 
 
 export const Projects = () => {
 
@@ -15,22 +15,22 @@ export const Projects = () => {
         {
             title: "Cover Letter",
             imgUrl: projImg1,
-            link: "/project1"  // <-- NORMAL path (no /#/)
+            link: "https://artin59.github.io/Portfolio/#/project1" 
         },
         {
             title: "Interview",
             imgUrl: projImg2,
-            link: "/project2"  
+            link: "https://artin59.github.io/Portfolio/#/project2"  
         },
         {
             title: "Technical Report",
             imgUrl: projImg3,
-            link: "/project3"  
+            link: "https://artin59.github.io/Portfolio/#/project3"  
         },
         {
             title: "ENG 1102 Design Project",
             imgUrl: projImg4,
-            link: "/project4"  
+            link: "https://artin59.github.io/Portfolio/#/project4"  
         },
     ]
     return (

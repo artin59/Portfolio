@@ -1,31 +1,47 @@
 import React from 'react';
-import coverletter from "../assets/img/cover letter.png"
-import coverletterpdf from "../assets/pdfs/cover lettter.pdf"
+import UTRAHACKS from "../assets/img/utra.png"
+import img1 from "../assets/img/1.jpg"
+import img2 from "../assets/img/2.jpg"
+import img3 from "../assets/img/3.jpg"
+import img4 from "../assets/img/4.jpg"
 
 function Hobby1() {
   return (
     <div className="project1-container">
+        <img className="utra" src={UTRAHACKS} alt="Poster 1" />
 
       <div className="row title-row">
-        <h1><strong>Showcase 1:</strong> Cover Letter</h1>
+        <h1>HeadSpace</h1>
+        <h4>Smart helmet that detects impacts, notifies individuals, and supports athlete safety with real-time data and access to doctors reports.</h4>
       </div>
-
       <div className="row images-row">
-      <a href={coverletterpdf} download="CoverLetter.pdf">  
-        <img className="placeholder-image" src={coverletter} />
-        </a>
-      </div>
+      <div class="colmun">
+        <img className="head" src={img1} alt="Poster 1" />
+        </div>
+        <div class="colmun">
+        <img className="head" src={img2} alt="Poster 2" />
+        </div>
+</div>
+        <div className="row images-row">
 
-      <div className="row text-row">
-        <p>I chose the cover letter assignment for my showcase because it demonstrates my ability to communicate my strengths, skills and experiences in a way that is specifically tailored to the position I was applying for. Writing  a strong cover letter is an absolute necessity for ensuring success in my future job searches, and will be a very valuable asset forever. By practicing the step-by-step process of making a cover letter, I’ve learned many valuable skills as a communicator. I’ve learned how to become knowledgeable on the company and job description, effectively communicate my skills and experiences by modeling it towards my research in a concise manner (less than a page) and stand out from the crowd. One of the main ways this piece pushed me out of my comfort zone was that it required me to speak confidently about myself and put myself on a high pedestal by trying to sell myself and my experiences which is something I’m not used to doing. For me and I’m sure for a lot of people searching for a job and putting yourself out there is a really stressful thing and writing a cover letter is at the forefront of that. By having a place to practice this skill and getting feedback for it, it allowed me to face that fear and build up my confidence. Overall I think I did a good job of showcasing my skills, expressing my interests and qualifications, and applying the things I learned from the lecture into this assignment. The feedback/grade I got also reiterates this. Based on that feedback, instead of just listing my accomplishments I would say what kind of skills I used in accomplishing those things.
-        </p>
-      </div>
+        <div class="colmun">
+        <img className="head" src={img3} alt="Poster 3" />
+        </div>
+        <div class="colmun">
+        <img className="head" src={img4} alt="Poster 4" />
+        </div>
+    </div>
+      <ul>
+        <li>Developed an impact monitoring system integrating 4 force sensors and an accelerometer within a helmet, connected to an ESP32 microcontroller for real-time data collection.</li>
+        <li>Implemented sensor data processing on the ESP32 to compute force, acceleration, and jerk, transmitting results wirelessly to a React-based dashboard via WebSockets.</li>
+        <li>Designed a React TypeScript web interface with Auth0 authentication, featuring dedicated views for players, coaches, and doctors to access helmet impact data.</li>
+        <li>Integrated Firebase as a cloud database to store historical impact data, allowing doctors to review player history and add medical notes while coaches monitor live impact metrics.</li>
+        <li>Engineered a real-time visualization system in React, providing players with historical data insights and safety recommendations based on past impacts.</li>
+    </ul>
 
-      <div className="row button-row">
-        <a href={coverletterpdf} download="CoverLetter.pdf">  
-        <button className="rounded-button">Download</button>
-        </a>
-      </div>
+    <p>Visit project devpost <a href='https://devpost.com/software/headspace-ypr0tc' target="_blank">Here</a></p>
+    <p>Visit project github <a href='https://github.com/artin59/Pengin-3.0' target="_blank">Here</a></p>
+
     </div>
   );
 }

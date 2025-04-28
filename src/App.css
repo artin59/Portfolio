@@ -639,9 +639,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+.utra{
+  border-radius: 50%;
+  width:8%;
+  margin-bottom: 20px;
+}
 
+.colmun{
+  flex: 50%;
+}
 
+.head{
+  height: 300px;
+  width: 300px !important;
 
+}
 
 /************ Footer Css ************/
 .footer {

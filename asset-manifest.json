@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.11a6e084.css",
-    "main.js": "/Portfolio/static/js/main.3466d80a.js",
+    "main.js": "/Portfolio/static/js/main.87ce7a62.js",
     "static/media/poster.pdf": "/Portfolio/static/media/poster.a5f77b649056fc1f2e48.pdf",
     "static/media/eng 1102 poster.png": "/Portfolio/static/media/eng 1102 poster.3ca65e41ca0765a332fa.png",
     "static/media/pres.pptx": "/Portfolio/static/media/pres.efb728cc5cd6c0069d6a.pptx",
@@ -24,7 +24,6 @@
     "static/media/cover lettter.pdf": "/Portfolio/static/media/cover lettter.ada2d5aae1b9cb82745a.pdf",
     "static/media/footer-bg.png": "/Portfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/applemusic.jpg": "/Portfolio/static/media/applemusic.f3a01f659307567203de.jpg",
-    "static/media/contact-img.svg": "/Portfolio/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
     "static/media/houseprice.jpg": "/Portfolio/static/media/houseprice.fc2e7684319af4a92f65.jpg",
     "static/media/revicons.eot": "/Portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -38,10 +37,10 @@
     "index.html": "/Portfolio/index.html",
     "static/media/HTML.svg": "/Portfolio/static/media/HTML.0c8899975fbb5345002df9b408db0cc0.svg",
     "main.11a6e084.css.map": "/Portfolio/static/css/main.11a6e084.css.map",
-    "main.3466d80a.js.map": "/Portfolio/static/js/main.3466d80a.js.map"
+    "main.87ce7a62.js.map": "/Portfolio/static/js/main.87ce7a62.js.map"
   },
   "entrypoints": [
     "static/css/main.11a6e084.css",
-    "static/js/main.3466d80a.js"
+    "static/js/main.87ce7a62.js"
   ]
 }
